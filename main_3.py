@@ -12,7 +12,7 @@ def insertion_sort(list):
         
         list[i + 1] = key
 
-list = [9, 5, 1, 4, 3]
+list = [12, 5, 1, 200, 3, 956, 13]
 insertion_sort(list)
 print("Lista ordenada:", list)
 
