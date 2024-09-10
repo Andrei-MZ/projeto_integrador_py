@@ -5,3 +5,8 @@ def separate_numbers(lista):
     return positivos, negativos
 
 numeros = list(map(int, input("Digite uma lista de números inteiros separados por espaço: ").split()))
+
+positivos, negativos = separate_numbers(numeros)
+
+print("Números Positivos:", positivos)
+print("Números Negativos:", negativos)
