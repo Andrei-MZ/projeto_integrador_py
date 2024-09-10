@@ -6,5 +6,4 @@ def tabela_verdade_xor():
             resultado = a ^ b 
             print(f"{a} | {b} |    {resultado}")
 
-
 tabela_verdade_xor()
