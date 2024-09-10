@@ -1,4 +1,4 @@
-def tabela_verdade_xor():
+def truth_table_xor():
     print("A | B | A XOR B")
     print("--|---|--------")
     for a in [0, 1]:
@@ -6,4 +6,4 @@ def tabela_verdade_xor():
             resultado = a ^ b 
             print(f"{a} | {b} |    {resultado}")
 
-tabela_verdade_xor()
+truth_table_xor()
