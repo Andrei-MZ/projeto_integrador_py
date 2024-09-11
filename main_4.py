@@ -1,3 +1,5 @@
+# Elaborar um programa Python para gerar a tabela verdade do “ou exclusivo”.
+
 def truth_table_xor():
     print("A | B | A XOR B")
     print("--|---|--------")

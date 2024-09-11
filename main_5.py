@@ -1,3 +1,6 @@
+# Elaborar um programa Python para receber uma lista de inteiros e separar os 
+# números positivos e negativos da lista
+
 def separate_numbers(lista):
     positivos = [num for num in lista if num >= 0]
     negativos = [num for num in lista if num < 0]
